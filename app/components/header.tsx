@@ -30,14 +30,17 @@ export default function Header() {
               name="search"
             />
             <div className="pointer-events-none absolute inset-y-0 right-2 flex items-center pl-3">
-              <MagnifyingGlassIcon className="h-6 w-6" aria-hidden="true" />
+              <MagnifyingGlassIcon
+                className="h-6 w-6 stroke-2"
+                aria-hidden="true"
+              />
             </div>
           </div>
         </div>
         <div className="flex flex-row justify-between items-center lg:flex lg:justify-center lg:items-center w-16">
-          <MoonIcon className="h-6 w-6" aria-hidden="true" />
+          <MoonIcon className="h-6 w-6 stroke-2" aria-hidden="true" />
           <MagnifyingGlassIcon
-            className="lg:hidden h-6 w-6"
+            className="lg:hidden h-6 w-6 stroke-2"
             aria-hidden="true"
           />
         </div>
