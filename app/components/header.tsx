@@ -4,8 +4,8 @@ import { MagnifyingGlassIcon, MoonIcon } from "@heroicons/react/24/outline";
 export default function Header() {
   return (
     <div className="bg-white border-[#141A1A] shadow-sm border-b">
-      <div className="flex flex-row justify-between mx-auto max-w-7xl px-6 h-[75px] sm:px-6 lg:px-[100px]">
-        <div className="flex flex-shrink-0 items-center">
+      <div className="flex flex-row justify-between px-6 h-[75px] sm:px-6 lg:px-[100px]">
+        <div className="flex items-center">
           <img
             className="block h-8 w-auto lg:hidden"
             src="/WTF_Logo.png"
@@ -24,20 +24,20 @@ export default function Header() {
           <div className="relative text-gray-400 focus-within:text-gray-600">
             <input
               id="search"
-              className="block w-full h-[48px] rounded-md border-0 bg-gray-200 py-1.5 px-4 text-gray-900 focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-indigo-600 sm:text-sm sm:leading-6"
+              className="block w-full h-[48px] rounded-xl border-0 bg-gray-200 py-1.5 px-4 text-gray-900 focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-indigo-600 sm:text-sm sm:leading-6"
               placeholder="Search"
               type="search"
               name="search"
             />
             <div className="pointer-events-none absolute inset-y-0 right-2 flex items-center pl-3">
-              <MagnifyingGlassIcon className="h-5 w-5" aria-hidden="true" />
+              <MagnifyingGlassIcon className="h-6 w-6" aria-hidden="true" />
             </div>
           </div>
         </div>
-        <div className="flex flex-row justify-between items-center w-16">
-          <MoonIcon className="h-5 w-5" aria-hidden="true" />
+        <div className="flex flex-row justify-between items-center lg:flex lg:justify-center lg:items-center w-16">
+          <MoonIcon className="h-6 w-6" aria-hidden="true" />
           <MagnifyingGlassIcon
-            className="lg:hidden h-5 w-5"
+            className="lg:hidden h-6 w-6"
             aria-hidden="true"
           />
         </div>
