@@ -6,17 +6,32 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    colors: {
-      "primary-green": "#4DBBBA",
-      "accent-yellow": "#FFC224",
-      "headings-black": "#141A1A",
-      "subheadings-black": "#263130",
-      "text-color": "#4C5757",
-      "placeholder-color": "#AFB6B6",
-      "white-95": "#F2F2F2",
-      "background-white": "#FCFCFC",
+    extend: {
+      animation: {
+        marquee: "marquee 30s linear infinite",
+        marquee2: "marquee2 30s linear infinite",
+      },
+      keyframes: {
+        marquee: {
+          "0%": { transform: "translateX(0%)" },
+          "100%": { transform: "translateX(-100%)" },
+        },
+        marquee2: {
+          "0%": { transform: "translateX(100%)" },
+          "100%": { transform: "translateX(0%)" },
+        },
+      },
+      colors: {
+        "primary-green": "#4DBBBA",
+        "accent-yellow": "#FFC224",
+        "headings-black": "#141A1A",
+        "subheadings-black": "#263130",
+        "text-color": "#4C5757",
+        "placeholder-color": "#AFB6B6",
+        "white-95": "#F2F2F2",
+        "background-white": "#FCFCFC",
+      },
     },
-    extend: {},
   },
   plugins: [],
 };

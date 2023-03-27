@@ -3,7 +3,7 @@ import { MagnifyingGlassIcon, MoonIcon } from "@heroicons/react/24/outline";
 
 export default function Header() {
   return (
-    <div className="bg-white border-[#141A1A] shadow-sm border-b">
+    <div className="bg-background-white border-headings-black shadow-sm border-b">
       <div className="flex flex-row justify-between px-6 h-[75px] sm:px-6 lg:px-[100px]">
         <div className="flex items-center">
           <img
@@ -24,7 +24,7 @@ export default function Header() {
           <div className="relative text-gray-400 focus-within:text-gray-600">
             <input
               id="search"
-              className="block w-full h-[48px] rounded-xl border-0 bg-gray-200 py-1.5 px-4 text-gray-900 focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-indigo-600 sm:text-sm sm:leading-6"
+              className="block w-full h-[48px] rounded-xl border-0 bg-white-95 py-1.5 px-4 text-gray-900 focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-indigo-600 sm:text-sm sm:leading-6"
               placeholder="Search"
               type="search"
               name="search"
