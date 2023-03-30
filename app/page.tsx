@@ -5,8 +5,9 @@ export default function Home() {
   return (
     <>
       <Header />
+      <div className="h-[783px] 2xl:h-[647.31px] w-screen bg-gradient-to-b from-[#85D0D0] via-[#A4D2D1] to-[#4DBBBA]">
       <Ticker />
-      <h1 className="text-3xl font-bold underline">Hello world!</h1>
+      </div>
     </>
   );
 }

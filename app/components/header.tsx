@@ -7,7 +7,7 @@ export default function Header() {
       <div className="flex flex-row justify-between px-6 h-[75px] sm:px-6 lg:px-[100px]">
         <div className="flex items-center">
           <img
-            className="block h-8 w-auto lg:hidden"
+            className="block h-12 w-auto lg:hidden"
             src="/WTF_Logo.png"
             alt="WTF_Logo"
           />
