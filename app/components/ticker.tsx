@@ -2,7 +2,7 @@ export default function Ticker() {
   return (
     <>
       <div className="2xl:hidden relative sm:flex overflow-x-hidden">
-        <div className="py-2 animate-marquee whitespace-nowrap text-headings-black font-DM-Sans font-bold">
+        <div className="py-2 animate-marquee whitespace-nowrap font-DM-Sans font-bold text-light-gray-400">
           <span className="text-sm mx-6">ZIL: $0.025</span>
           <span className="text-sm mx-6">Total Marketplaces: 3</span>
           <span className="text-sm mx-6">Total Collections: 1200</span>
