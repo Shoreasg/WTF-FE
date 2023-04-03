@@ -14,16 +14,16 @@ export default function CarouselBanner() {
                 href: "https://torchwallet.io/",
                 src: "/TorchWalletBanner.png",
                 alt: "TorchBanner",
-                ImageWidth: 728,
-                ImageHeight: 90,
+                ImageWidth: 530,
+                ImageHeight: 136,
                 target: "_blank",
             },
             {
                 href: "https://torchwallet.io/",
                 src: "/banner.png",
                 alt: "TorchBanner",
-                ImageWidth: 728,
-                ImageHeight: 90,
+                ImageWidth: 530,
+                ImageHeight: 136,
                 target: "_blank",
             }
         ];
@@ -31,7 +31,7 @@ export default function CarouselBanner() {
     return BannerImages.length === 0 ? (
         <></>
     ) : (
-        <div className="h-[118px] lg:h-[170px] w-screen">
+        <div className="h-[118px] lg:h-[170px] mt-2 w-screen">
             <Carousel
                 animation="fade"
                 autoplay={true}
@@ -41,7 +41,7 @@ export default function CarouselBanner() {
                 renderCenterRightControls={null}
                 autoplayInterval={5000}
                 defaultControlsConfig={{pagingDotsStyle:{fill:"#263130", marginRight: "8px"}}}
-                className="mt-[22px] pb-8"
+                className=" pb-8"
             >
                 {BannerImages.map((item) => (
                     <a href={item.href} target={item.target} key={item.alt}>
