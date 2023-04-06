@@ -10,14 +10,16 @@ export default function CarouselBanner() {
         ImageHeight: number;
         target: string;
     }[] = [
+
             {
                 href: "https://torchwallet.io/",
-                src: "/TorchWalletBanner.png",
+                src: "/banner.png",
                 alt: "TorchBanner",
                 ImageWidth: 530,
                 ImageHeight: 136,
                 target: "_blank",
             },
+
             {
                 href: "https://torchwallet.io/",
                 src: "/banner.png",
@@ -40,7 +42,7 @@ export default function CarouselBanner() {
                 renderCenterLeftControls={null}
                 renderCenterRightControls={null}
                 autoplayInterval={5000}
-                defaultControlsConfig={{pagingDotsStyle:{fill:"#263130", marginRight: "8px"}}}
+                defaultControlsConfig={{ pagingDotsStyle: { fill: "#263130", marginRight: "8px" } }}
                 className=" pb-8"
             >
                 {BannerImages.map((item) => (

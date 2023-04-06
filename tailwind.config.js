@@ -40,7 +40,8 @@ module.exports = {
       },
       fontFamily:{
         "DM-Sans": ["DM Sans", "sans-serif"],
-        "Lalezar": ["Lalezar", "cursive"],
+        "Lalezar-serif": ["Lalezar","serif"],
+        "Lalezar-sans": ["Lalezar","sans-serif"],
       }
     },
   },

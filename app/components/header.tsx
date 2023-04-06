@@ -25,7 +25,7 @@ export default function Header() {
             <input
               id="search"
               className="block w-full h-[48px] rounded-xl border-0 bg-light-gray-100 py-1.5 px-4 text-gray-900 focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-indigo-600 sm:text-sm sm:leading-6"
-              placeholder="Search"
+              placeholder="Search Collections"
               type="search"
               name="search"
             />
